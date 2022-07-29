@@ -1,0 +1,6 @@
+!/coverage
+/coverage/*
+!/coverage/empty
+composer.lock
+/vendor
+/.phpunit.cache

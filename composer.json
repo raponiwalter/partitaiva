@@ -1,0 +1,34 @@
+{
+	"name": "wraps/partitaiva",
+	"type": "php-class",
+	"description": "Classe di utilità per la Partita Iva",
+	"keywords": ["partitaiva", "fiscale", "classe", "class"],
+	"homepage": "https://github.com/raponiwalter/partitaiva",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Walter Raponi",
+			"role": "Author"
+		}
+	],
+	"require": {
+		"php": ">=7.1",
+		"composer/installers": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9",
+		"phpunit/php-code-coverage": "^9.2"
+	},
+	"support": {
+		"source": "https://github.com/raponiwalter/partitaiva",
+		"issues": "https://github.com/raponiwalter/partitaiva/issues"
+	},
+	"extra": {
+		"installer-name": "Partitaiva"
+	},
+	"autoload": {
+        "psr-4": {
+            "Wraps\\" : "src/"
+        }
+    }
+}
